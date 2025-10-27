@@ -2,39 +2,39 @@
 
 [![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
-sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
+Sqlmap adalah alat uji penetrasi sumber terbuka yang mengotomatiskan proses pendeteksian dan eksploitasi kelemahan injeksi SQL serta pengambilalihan server basis data. Alat ini dilengkapi dengan mesin deteksi yang canggih, banyak fitur khusus untuk penguji penetrasi terbaik, dan beragam pilihan switch termasuk sidik jari basis data, pengambilan data berlebih dari basis data, akses ke sistem berkas yang mendasarinya, dan eksekusi perintah pada sistem operasi melalui koneksi out-of-band.
 
 Screenshots
 ----
 
 ![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
 
-You can visit the [collection of screenshots](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) demonstrating some of the features on the wiki.
+Anda dapat mengunjungi [kumpulan tangkapan layar](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) yang mendemonstrasikan beberapa fitur di wiki.
 
-Installation
+Instalasi
 ----
 
-You can download the latest tarball by clicking [here](https://github.com/sqlmapproject/sqlmap/tarball/master) or latest zipball by clicking [here](https://github.com/sqlmapproject/sqlmap/zipball/master).
+Anda dapat mengunduh tarball terbaru dengan mengeklik [di sini](https://github.com/sqlmapproject/sqlmap/tarball/master) atau zipball terbaru dengan mengeklik [di sini](https://github.com/sqlmapproject/sqlmap/zipball/master).
 
-Preferably, you can download sqlmap by cloning the [Git](https://github.com/sqlmapproject/sqlmap) repository:
+Sebaiknya, Anda dapat mengunduh sqlmap dengan mengkloning repositori [Git](https://github.com/sqlmapproject/sqlmap):
 
     git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
-sqlmap works out of the box with [Python](https://www.python.org/download/) version **2.6**, **2.7** and **3.x** on any platform.
+sqlmap berfungsi secara langsung dengan [Python](https://www.python.org/download/) versi **2.6**, **2.7** dan **3.x** di platform apa pun.
 
 Usage
 ----
 
-To get a list of basic options and switches use:
+Untuk mendapatkan daftar opsi dasar dan sakelar gunakan:
 
     python sqlmap.py -h
 
-To get a list of all options and switches use:
+Untuk mendapatkan daftar semua opsi dan sakelar gunakan:
 
     python sqlmap.py -hh
 
-You can find a sample run [here](https://asciinema.org/a/46601).
-To get an overview of sqlmap capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the [user's manual](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
+Anda dapat menemukan contoh larinya [di sini](https://asciinema.org/a/46601).
+Untuk mendapatkan gambaran umum tentang kemampuan sqlmap, daftar fitur yang didukung, dan deskripsi semua opsi dan sakelar, beserta contoh, Anda disarankan untuk membaca [panduan pengguna](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
 
 Links
 ----
